@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Auto Seller Digiflazz",
+  "version": "1.0.0",
+  "description": "Otomatis ubah seller Digiflazz berdasarkan harga dan status.",
+  "permissions": [
+    "storage",
+    "https://member.digiflazz.com/*",
+    "https://*.digiflazz.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://member.digiflazz.com/*",
+        "https://*.digiflazz.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_action": {
+    "default_title": "Auto Seller Digiflazz",
+    "default_popup": "popup.html"
+  }
+}
