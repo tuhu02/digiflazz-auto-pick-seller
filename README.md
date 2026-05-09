@@ -184,7 +184,7 @@ Script dapat membaca berbagai format rating dari popup seller Digiflazz:
 ## 📁 Struktur File
 
 ```
-auto-seller-v2.js   ← Script utama
+content.js   ← Script utama
 README.md           ← Dokumentasi ini
 ```
 
